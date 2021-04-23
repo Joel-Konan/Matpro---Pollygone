@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lib/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/Fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/Fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/Css/styles.css">
+    <link rel="stylesheet" href="assets/Css/responsive.css">
+</head>
+<body>
+    
+    <div class="app">
+        <div class="container-xxl">
+            <section class="heading">
+                <div class="topBar">
+                    <span id="MyHamburger" class="ti-menu"></span>
+                    <div class="logo_container">
+                        <img src="assets/Svg/Logo.svg" alt="">
+                    </div>
+
+                    <div id="searchBar" class="search_container">
+                        <input type="search" name="" id="">
+                        <div class="icon_box">
+                            <img src="assets/Images/Search_icon.png" alt="search icon">
+                        </div>
+                    </div>
+
+                    <div class="topBarTools">
+                        <div class="panier_container">
+                            <div class="icon_box">
+                                <img src="assets/Images/shopping_basket_icon.png" alt="Panier">
+                            </div>
+                            <span class="notification">0</span>
+                        </div>
+
+                        <div class="signIn_container">
+                            <span>Se connecter</span>
+                            <i class="fa fa-user-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- NavBar-->
+                <div class="navBar">
+                    <div class="allCategorie_box">
+                        <i class="ti-menu"></i>
+                        <span>toute les categories</span>
+
+                        <ul class="categorie_menu">
+                            <li><a href="#">categorie</a> <i class="ti-angle-right"></i></li>
+                            <li><a href="#">cuisson</a> <i class="ti-angle-right"></i></li>
+                            <li><a href="#">cool & chill</a> <i class="ti-angle-right"></i></li>
+                            <li><a href="#">lavage</a> <i class="ti-angle-right"></i></li>
+                            <li><a href="#">buanderie</a></li>
+                            <li><a href="#">refrigeration</a></li>
+                            <li><a href="#">ice cream</a></li>
+                            <li><a href="#">patisserie - boulangerie</a></li>
+                            <li><a href="#">pizza - pasta</a></li>
+                        </ul>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="#">a propos de nous</a></li>
+                            <span>|</span>
+                            <li><a href="#">nos produits</a></li>
+                            <span>|</span>
+                            <li><a href="#">assistance</a></li>
+                            <span>|</span>
+                            <li><a href="#">nous contacter</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- responsiv NavBar -->
+                <div class="responsiveNavBar">
+                    <span id="closeBtn" class="ti-close"></span>
+                    <div class="respSearch_box">
+                        <input type="search" name="" id="" placeholder="Rechercher...">
+                        <i class="fa fa-search"></i>
+                    </div>
+
+                    <div class="responsive_cat">
+                        <button type="button" class="resp_btn">toute les categories <i class="ti-angle-down"></i></button>
+                        
+                        <ul class="responsive_cat_menu">
+                            <li><a href="#">categorie</a> <i class="ti-angle-down"></i></li>
+                            <li><a href="#">cuisson</a> <i class="ti-angle-down"></i></li>
+                            <li><a href="#">cool & chill</a> <i class="ti-angle-down"></i></li>
+                            <li><a href="#">lavage</a> <i class="ti-angle-down"></i></li>
+                            <li><a href="#">buanderie</a></li>
+                            <li><a href="#">refrigeration</a></li>
+                            <li><a href="#">ice cream</a></li>
+                            <li><a href="#">patisserie - boulangerie</a></li>
+                            <li><a href="#">pizza - pasta</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="box_responsiveMenu">
+                        <ul class="responsive_menu">
+                            <li><a href="#">a propos de nous</a></li>
+                            <li><a href="#">nos produits</a></li>
+                            <li><a href="#">assistance</a></li>
+                            <li><a href="#">nous contacter</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="resp_toolUser">
+                        <div>
+                            <span>se connecter</span>
+                            <i class="fa fa-user"></i>
+                        </div>
+
+                        <div>
+                            <span>s'inscrire</span>
+                            <i class="fa fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- carousel part -->
+                <div class="heading_carousel-container">
+                    <div class="heading_carousel owl-carousel owl-theme">
+                        <div class="item heading_1"></div>
+                        <div class="item heading_2"></div>
+                        <div class="item heading_3"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- main page -->
+            <section class="main_page">
+                <!-- first bloc -->
+                <div class="first_bloc">
+                    <div class="switch_bloc">
+                        <div class="switch_1">
+                            <a id="prod_dmd-tab" data-toggle="tab" href="#prod_dmd" role="tab" aria-controls="prod_dmd" aria-selected="true">produits les plus demandés</a>
+                        </div>
+                        <div class="switch_2">
+                            <a id="prod_vus-tab" data-toggle="tab" href="#prod_vus" role="tab" aria-controls="prod_vus" aria-selected="false">produits les plus vus</a>
+                        </div>
+                    </div>
+
+                    <div class="carousel-container-first_bloc tab-content">
+                        <!-- Produits demandés -->
+                        <div class="tab-pane fade show active" id="prod_dmd" role="tabpanel" aria-labelledby="prod_dmd-tab">
+                            <div class="owl-carousel owl-theme owl-reponsive breakpoint first_bloc_carousel">
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Erosseuse_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Essoreuse à linge</h6>
+                                    <p class="item_categorie">buanderie</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Machine_à_lave_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Machine à laver portable</h6>
+                                    <p class="item_categorie">buanderie</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Dough_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Dough mixer 22 liters...</h6>
+                                    <p class="item_categorie">Ice cream</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Vitrine_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Vitrine chauffante venti...</h6>
+                                    <p class="item_categorie">Patisserie/Boulangerie</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Produits Vus -->
+                        <div class="tab-pane fade show  owl-carousel" id="prod_vus" role="tabpanel" aria-labelledby="prod_vus-tab">
+                            <div class="owl-theme first_bloc_carousel owl-reponsive breakpoint">
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Erosseuse_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Lorem, ipsum.</h6>
+                                    <p class="item_categorie">buanderie</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Machine_à_lave_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Lorem, ipsum dolor.</h6>
+                                    <p class="item_categorie">buanderie</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Dough_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Lorem ipsum dolor sit amet.</h6>
+                                    <p class="item_categorie">Ice cream</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                                <div class="item">
+                                    <div class="illustration_item">
+                                        <img src="assets/Images/Vitrine_img.png" alt="">
+                                    </div>
+                                    <h6 class="item_title">Lorem ipsum dolor sit.</h6>
+                                    <p class="item_categorie">Patisserie/Boulangerie</p>
+                                    <div class="container_action">
+                                        <a href="#" class="detail_btn">détails</a>
+                                        <div class="item_action">
+                                            <span>
+                                                ajouter <br>
+                                                panier
+                                            </span><i class="fa fa-shopping-basket"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- second bloc-->
+                <div class="second_bloc">
+                    <img src="assets/Images/Big_image.png" alt="">
+                </div>
+
+                <!-- third bloc -->
+                <div class="third_bloc">
+                    <h3>les big deals</h3>
+                    <div class="deals_container">
+                        <div class="item">
+                            <div class="image_container">
+                                <img src="assets/Images/big_deal_1.png" alt="Deal image">
+                            </div>
+                            <a href="#">voir l'offre</a>
+                        </div>
+                        <div class="item">
+                            <div class="image_container">
+                                <img src="assets/Images/big_deal_2.png" alt="Deal image">
+                            </div>
+                            <a href="#">voir l'offre</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- footer part -->
+            <section class="footer_section">
+                <div class="top_footer">
+                    <div class="left_part">
+                        <div class="icon_box">
+                            <img src="assets/Images/send_icon.png" style="color: beige;" alt="">
+                        </div>
+                        <h4>
+                            Souscrivez à notre newsletter
+                            <br>
+                            <span>et restez informés des nouveaux arrivages</span>
+                        </h4>
+                    </div>
+                    <div class="right_part">
+                        <div class="newsletter_box">
+                            <input type="email" placeholder="votre email ici" name="" id="" class="newsletterInput">
+                            <button type="submit" class="newsletterBtn">souscrire</button>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="container">
+                        <div class="left_part">
+                            <div class="logo_container">
+                                <img src="assets/Images/footer_logo.png" alt="footer logo">
+                            </div>
+                            <div class="help_container">
+                                <div>
+                                    <div class="icon_box">
+                                        <img src="assets/Images/icon_zik.png" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <span>Une question? appelez-nous</span>
+                                        <h4>+225 00 00 00 00</h4>
+                                    </div>
+                                </div>
+                                <span>01 BP 1627 Abidjan 01 - Abidjan, Côte d'Ivoire</span>
+                            </div>
+                        </div>
+                        <div class="right_part">
+                            <div>
+                                <h5>
+                                    Trouver <br>
+                                    votre produit
+                                </h5>
+                                <ul>
+                                    <li><a href="#">categories</a></li>
+                                    <li><a href="#">cuisson</a></li>
+                                    <li><a href="#">cook & chill</a></li>
+                                    <li><a href="#">lavage</a></li>
+                                    <li><a href="#">buanderie</a></li>
+                                    <li><a href="#">refrigeration</a></li>
+                                    <li><a href="#">ice cream</a></li>
+                                    <li><a href="#">patisserie - boulangerie</a></li>
+                                    <li><a href="#">pizza - pasta</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h5>Mon profil</h5>
+                                <ul>
+                                    <li><a href="#">mon compte</a></li>
+                                    <li><a href="#">mes achats</a></li>
+                                    <li><a href="#">support</a></li>
+                                    <li><a href="#">faq</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+        </div>
+    </div>
+
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/Js/scripts.js"></script>
+</body>
+</html>

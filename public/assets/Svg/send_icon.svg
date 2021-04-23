@@ -1,0 +1,16 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 43" width="54" height="43">
+	<title>ACCUEIL</title>
+	<defs>
+		<image width="192" height="192" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAQAAAD41aSMAAADeElEQVR4Ae2dRWIUURRFL86QCTpkA7i7bIEJ7ltgiMsWGBNPVoBO47IApnFPsLaPftwiXbfSdc5bwql3krb/lUEAAAAAAAAAAAAAAAAAAAAAAOCFLmmlbMCwgob1QBsENgEfp6AmHVLiwIjCd9NDkLwCAkHyC4hBOqgEgFGFP063LmmFwCQgBul+OYMEYwr/HHOQEBCDdNEQJASUN0gwrjDDKajRGSQE+IOEgBgk3SNIc2VCYU6TV6MOyAQC4nT5goSAOEOzCRJMKszX+IOEgBikC5YgIWDmQYIphbJNXg3aLxsI8AcJATFIuvv7IMF0EgL8QUJAnM4fgwSvEhYQg7RONhDgDxICYpB0PutBeq1gnkFnkBAQg1SvfQhwT0cWg/RGIVUzqDtah4BMBwkBMUjntFwVz1uF3w9BQkAMUl3ZgoQAgvRO4f+GICEgBmmvKoicwgKc9hgkBDiDdHvOQUIAQcorLPhp11ktR4B3BmKQEOCbnGoXXpAKCmUYguQUQJAQEIO0R6mnqFDR0xaDhABnkG79IUgIIEglhQxNm85oOQL8QVqj1BAyOTnVaI8kBBCkkPHp101vkFZpm07omh7qiV4qn9kg7VYqWKqNOq6reqAGtWs0UxpaDUGy7AdBSv9+ECT2o1Wn7UHy7wdBYj9yqtYuGWE/YpCWyQr70a8b8gfJvx8Eif1o8QeJ/ejzB4n9yKnKHyT2o0Wn3EFiP/xBEvvxTlXaLLAK2C4gQfwR5hk3vC7mGeedId6K4BknOrwdnQB8IMMzTnT4UN4AX0vxwhezeMYzEB2+nMsznrXoBNMQHQTwEyV+pMfPVBHAD7U5qsAAh3UggONqOLDJAEeWIYBD+zi20gEHtyKA6HB4NwI4vp4LHLjChOhwiQ8CuMaKi9wQkPboIKBD5/3R4TpbBGQnOlxp3pnBK8251B8Bg7qrdcosr7IZHQTk1aD9soCAoW/RgenEo3PBEB0E+KKDgBidDfoNMKVQ5ukyRAcB7uggYEj3/ic6MFlJ0UFAXo06oBkAE5UQHQR06aInOgiYY3RgXGHWM+yLDgK6XdFBQEGNOqh5AsZmGJ37huggwBsdBBTURHTKxWh6o4OAbl1KIDoIcEYHRn4TnQeu6CCgR5e0UgkCw99F55AMIMAaHXgxk+gAAAAAAAAAAAAAAAAAAAAAAADAe03Jm0D3xb4GAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="ACCUEIL">
+		<g id="footer">
+			<g id="Group 8">
+				<use id="baseline_send_black_48" href="#img1" transform="matrix(0.257,-0.141,0.143,0.254,-7.949,2.253)"/>
+			</g>
+		</g>
+	</g>
+</svg>
